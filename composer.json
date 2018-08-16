@@ -1,0 +1,5 @@
+{
+    "require": {
+        "swaggest/json-diff": "^3.4"
+    }
+}
