@@ -138,6 +138,6 @@ And the result would be
 # Final Words
 * The PHP implementation can be found in `each_implementation.php`. 
 It provides a function that converts an JSON patch extended with *each* to a 
-traditional JSON patch. The each extension is illustrated by converting 
+traditional JSON patch. The extension is illustrated by converting 
 some JSON patches and applying them using the 
 [json-diff](https://github.com/swaggest/json-diff) library.
