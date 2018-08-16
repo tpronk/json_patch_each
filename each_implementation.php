@@ -18,7 +18,7 @@ require 'vendor/autoload.php';
 // This function converts a JSON patch operation that has an 'each' extension
 // to one or more traditional JSON patch operations. For an explanation of the
 // 'each' extension, see the GitHub repo that this file comes from at
-// <url to repo here>
+// https://github.com/tpronk/json_patch_each
 function translate_each_patch_operation($patch_operation) {
   $result = array();
   $each = !property_exists($patch_operation, "each")? false: $patch_operation->each;
