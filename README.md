@@ -19,7 +19,7 @@ If *each* is true, and...
 * value is an array, then the operation is applied to the target path for each element of the value
 * value is an object, then the operation is applied to each member of the target path for each corresponding member of the value
 
-In both cases, the operation is applied non-recursively, i.e., it is applied to the children of the target path, but not to any grandchildren.
+In both cases, the operation is applied non-recursively, i.e., it is applied to the children of the value and target path, but not to any grandchildren.
 
 # How *each* works with arrays
 Imagine we'd like to patch this data structure:
